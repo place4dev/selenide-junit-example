@@ -124,7 +124,7 @@ public class AuthTest {
     }
 
     @Test
-    @DisplayName("Ссылка восстановления пароля")
+    @DisplayName("Ссылка Регистрации")
     void registerLink() {
         REGISTER_LINK.click();
         Assertions.assertTrue(REGISTER_FORM.isDisplayed());
